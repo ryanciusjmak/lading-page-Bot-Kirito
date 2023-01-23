@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family= Righteous & display família= Justo &família= Sarala & swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image:url('components/img/sword-art-online-fundo-de-tela.jpg');
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    cursor: pointer;
+}
+.cabecalho :hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.cabecalho-image{
+    height: 62px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #011f30;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 70px;
+    border-top: 0.4px solid #011f30;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+    gap: 32px;
+    color: #011f30;
+    position: relative;
+    top: 60px;
+    margin-right: 600px;
+    
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #011f30;
+}
+
+.conteudo-principal-escrito-botão{
+    background-color: #157cb8;
+    width: 185px;
+    height:67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    color: #011f30;
+    cursor: pointer;
+}
+
+
+.conteudo-principal-escrito-botão:hover{
+    background-color:#072e81;
+    color: white;
+    
+}
+
+.conteudo-principal-imagem{
+    
+    position: absolute;
+width: 394.13px;
+height: 309.31px;
+left: 880px;
+top: 121px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 158px;
+}
+
+.conteudo-segundario-titulo{
+    border-top: 0.4px solid #011f30;
+    padding-top: 26px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #011f30;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #011f30;
+}
+
+.rodape{
+    padding: 26px;
+    border-top: 0.4px solid #011f30;
+}
+
+.rodape-imagem{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
